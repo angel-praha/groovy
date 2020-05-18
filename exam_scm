@@ -1,5 +1,6 @@
 node {
     stage('Example') {
-      sh 'echo Branch Name: $env.BRANCH_NAME'
+      echo "hola"
+      echo $WORKSPACE
     }
 }
