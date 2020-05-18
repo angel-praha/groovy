@@ -1,6 +1,0 @@
-node {
-    stage('Example') {
-      echo "hola"
-      echo $WORKSPACE
-    }
-}
