@@ -8,6 +8,7 @@ node {
         }
         else  {
             echo 'I execute elsewhere'
+            echo 'env.BRANCH_NAME'
         }
     }
 }
