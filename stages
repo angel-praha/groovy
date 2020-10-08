@@ -1,0 +1,9 @@
+node {
+    stage('Stage One'){
+        echo getCurrentStage()
+    }
+
+    stage('Stage Two'){
+        echo getCurrentStage()
+    }
+}
